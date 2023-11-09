@@ -2,7 +2,22 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			lineHeight: {
+				1.5: '1.5'
+			},
+			fontSize: {
+				h1: '44px',
+				h2: '36px',
+				h3: '28px',
+				h4: '24px',
+				h5: '20px',
+				h6: '16px',
+				lg: '18px',
+				md: '16px',
+				sm: '14px'
+			}
+		}
 	},
 	plugins: []
 };
