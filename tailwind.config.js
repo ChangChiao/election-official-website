@@ -3,6 +3,14 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			colors: {
+				primary: '#4527A0',
+				secondary: {
+					green: '#26A69A',
+					yellow: '#FFB300',
+					red: '#EC407A'
+				}
+			},
 			lineHeight: {
 				1.5: '1.5'
 			},

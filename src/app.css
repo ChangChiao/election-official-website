@@ -2,42 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	font-family: 'Noto Sans TC', sans-serif;
+@layer base {
+	body {
+		font-family: 'Noto Sans TC', sans-serif;
+	}
 }
 
-.title-h1 {
-	@apply font-bold text-h1 leading-1.5;
-}
+@layer components {
+	.cus-text-h1 {
+		@apply font-bold text-h1 leading-1.5;
+	}
 
-.title-h2 {
-	@apply font-bold text-h2 leading-1.5;
-}
+	.cus-text-h2 {
+		@apply font-bold text-h2 leading-1.5;
+	}
 
-.title-h3 {
-	@apply font-bold text-h3 leading-1.5;
-}
+	.cus-text-h3 {
+		@apply font-bold text-h3 leading-1.5;
+	}
 
-.title-h4 {
-	@apply font-bold text-h4 leading-1.5;
-}
+	.cus-text-h4 {
+		@apply font-bold text-h4 leading-1.5;
+	}
 
-.title-h5 {
-	@apply font-bold text-h5 leading-1.5;
-}
+	.cus-text-h5 {
+		@apply font-bold text-h5 leading-1.5;
+	}
 
-.title-h6 {
-	@apply font-bold text-h6 leading-1.5;
-}
+	.cus-text-h6 {
+		@apply font-bold text-h6 leading-1.5;
+	}
 
-.body-sm {
-	@apply text-sm leading-1.5;
-}
+	.body-sm {
+		@apply text-sm leading-1.5;
+	}
 
-.body-md {
-	@apply text-md leading-1.5;
-}
+	.body-md {
+		@apply text-md leading-1.5;
+	}
 
-.body-lg {
-	@apply text-lg leading-1.5;
+	.body-lg {
+		@apply text-lg leading-1.5;
+	}
+
+	.container {
+		max-width: 1512px;
+		width: 80%;
+		min-width: 1000px;
+		margin: 0 auto;
+	}
 }
