@@ -1,7 +1,3 @@
-<script>
-	import '../app.css';
-</script>
-
 <header class="bg-white h-[100px]" >
     <div class="container flex items-center justify-between h-full">
         <img class="logo w-[236px] h-[58px] flex-1" src="/svg/Logo.svg" alt="">
