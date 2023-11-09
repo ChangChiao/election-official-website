@@ -8,7 +8,8 @@ export default {
 				secondary: {
 					green: '#26A69A',
 					yellow: '#FFB300',
-					red: '#EC407A'
+					red: '#EC407A',
+					gray: '#E3E3E3'
 				}
 			},
 			lineHeight: {
@@ -24,6 +25,9 @@ export default {
 				lg: '18px',
 				md: '16px',
 				sm: '14px'
+			},
+			backgroundImage: {
+				person: 'url(/Main Img-people.png)'
 			}
 		}
 	},
