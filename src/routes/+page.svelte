@@ -3,6 +3,7 @@
     import { onMount } from 'svelte';
 	import Cover from "../components/Cover.svelte";
 	import Activity from "../components/Activity.svelte";
+	import Issue from "../components/Issue.svelte";
 
     let pageTitle = '喵立翰 競選官網';
 
@@ -11,6 +12,7 @@
     });
 </script>
 
-<Cover/>
+<Cover />
 <Activity />
+<Issue />
 <!-- <Amount/> -->

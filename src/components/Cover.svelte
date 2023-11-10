@@ -1,4 +1,4 @@
-<div class="relative z-20 wrapper bg-secondary-gray">
+<div class="relative z-20 wrapper h-[1200px] bg-secondary-gray">
     <div class="container">
         <div class="flex items-end justify-between">
             <div class="slogan">
