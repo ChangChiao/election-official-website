@@ -46,9 +46,9 @@
 	}
 
 	.container {
-		max-width: 1512px;
-		width: 80%;
-		min-width: 1000px;
-		margin: 0 auto;
+		@apply w-4/5 max-w-[1512px] min-w-[1000px] mx-auto;
+	}
+	.wrapper {
+		@apply h-screen min-h-[1000px];
 	}
 }
