@@ -17,13 +17,14 @@
 ## 系統說明
 
 `Node版本: v18.14.1`
+`pnpm版本: v8.2.0`
 
 - 安裝： `pnpm install`
-- 執行： `pnpm start`
+- 執行： `pnpm dev`
 
 ## 使用技術
 
 - svelte
 - vite
 - tailwindcss
-- aos
+- AOS

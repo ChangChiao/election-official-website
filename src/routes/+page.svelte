@@ -8,7 +8,7 @@
     let pageTitle = '喵立翰 競選官網';
 
     onMount(() => {
-    document.title = pageTitle;
+        document.title = pageTitle;
     });
 </script>
 

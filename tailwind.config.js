@@ -27,7 +27,7 @@ export default {
 				sm: '14px'
 			},
 			backgroundImage: {
-				person: 'url(/Main Img-people.png)'
+				person: "url('Main Img-people.png')"
 			}
 		}
 	},
