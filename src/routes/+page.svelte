@@ -4,6 +4,7 @@
 	import Cover from "../components/Cover.svelte";
 	import Activity from "../components/Activity.svelte";
 	import Issue from "../components/Issue.svelte";
+	import Donate from "../components/Donate.svelte";
 
     let pageTitle = '喵立翰 競選官網';
 
@@ -15,4 +16,5 @@
 <Cover />
 <Activity />
 <Issue />
+<Donate/>
 <!-- <Amount/> -->

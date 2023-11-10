@@ -3,6 +3,10 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				oswald: ['Oswald', 'sans-serif'],
+				NotoSansTC: ['Noto Sans TC', 'sans-serif']
+			},
 			colors: {
 				primary: '#4527A0',
 				secondary: {
@@ -27,7 +31,8 @@ export default {
 				sm: '14px'
 			},
 			backgroundImage: {
-				person: "url('/Main Img-people.png')"
+				person: "url('/Main Img-people.png')",
+				catHand: "url('/bg-pay.png')"
 			}
 		}
 	},

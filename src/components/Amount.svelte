@@ -1,4 +1,9 @@
-<div class="flex items-center cus-text-h2">
+<script lang="ts">
+
+</script>
+
+
+<div class="flex items-center font-oswald cus-text-h1 text-primary">
     <span>NT$</span> <div class="amount"></div>
 </div>
 
@@ -13,7 +18,7 @@
 .amount {
   animation: counter 4s forwards ease-in-out;
   counter-reset: num var(--num);
-  padding: 2rem;
+  padding: 1rem 0;
 }
 .amount::after {
   content: counter(num);
@@ -21,7 +26,7 @@
 
 @keyframes counter {
   from {
-    --num: 987650000;
+    --num: 987655000;
   }
   to {
     --num: 987655873;
