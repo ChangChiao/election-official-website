@@ -1,6 +1,6 @@
 <header class="bg-white h-[100px]" >
     <div class="container flex items-center justify-between h-full">
-        <img class="logo w-[236px] h-[58px] flex-1" src="/svg/Logo.svg" alt="">
+        <img class="logo w-[236px] h-[58px] flex-1" src="/svg/Logo.svg" alt="logo">
         <div class="flex items-center w-2/3">
             <ul class="flex">
                 <li class="menu-item active cus-text-h5">候選人主張</li>

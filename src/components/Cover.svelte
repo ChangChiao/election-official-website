@@ -1,16 +1,16 @@
-<div class="h-screen bg-secondary-gray">
+<div class="relative z-20 wrapper bg-secondary-gray">
     <div class="container">
         <div class="flex items-end justify-between">
             <div class="slogan">
-                <img class="pb-4" src="/svg/subtitle.svg" alt="">
-                <img class="" src="/svg/slogan.svg" alt="">
+                <img class="pb-4" src="/svg/subtitle.svg" alt="subtitle">
+                <img class="" src="/svg/slogan.svg" alt="slogan">
             </div>
             <img src="/svg/name.svg" alt="">
         </div>
         <div class="flex justify-between w-full pt-6">
-            <img src="/svg/KEEP IT POSSIBLE.svg" alt="">
+            <img src="/svg/KEEP IT POSSIBLE.svg" alt="keep">
             <div class="pl-4 w-[85%]">
-                <img class="mb-6" src="/svg/Miao Li-Han.svg" alt="">
+                <img class="mb-6" src="/svg/Miao Li-Han.svg" alt="name">
                 <div class="w-full ml-10 p-8 rounded-tl-[50px]  rounded-br-[50px] border-4 border-primary bg-white h-[300px] relative boundary person after:bg-person">
                     <h3 class="cus-text-h1">護航台灣幸福經濟  從照顧每一隻貓咪開始</h3>
                     <p class="cus-text-h4">我堅信，藉由推動更完善的貓咪福利和相關政策，更是間接地投資於台灣的未來。畢竟，民眾的身心健康與工作熱情是推動經濟的核心動力。透過完善的貓咪福利政策，為台灣的 GDP 經濟帶來巨大效益。
