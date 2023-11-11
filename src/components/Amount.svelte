@@ -1,10 +1,36 @@
 <script lang="ts">
+	import { onMount } from "svelte";
+
+let flag = false;
+let amountElemet: HTMLDivElement;
+const option = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.5
+}
+
+
+
+onMount(() => {
+  const handleIntersection = ((entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
+    entries.forEach(ele => {
+      if(ele.isIntersecting){
+        flag = true;
+        observer.unobserve(ele.target)
+      }
+    })
+  })
+  const observer = new IntersectionObserver(handleIntersection, option);
+  observer.observe(amountElemet);
+})
 
 </script>
 
 
-<div class="flex items-center font-oswald cus-text-h1 text-primary">
-    <span>NT$</span> <div class="amount"></div>
+<div bind:this={amountElemet} class="flex items-center font-oswald cus-text-h1 text-primary">
+  {#if flag}  
+  <span>NT$</span> <div class="amount"></div>
+  {/if}
 </div>
 
 
