@@ -13,7 +13,8 @@ export default {
 					green: '#26A69A',
 					yellow: '#FFB300',
 					red: '#EC407A',
-					gray: '#E3E3E3'
+					gray: '#E3E3E3',
+					darkGray: '#B9B9B9'
 				}
 			},
 			lineHeight: {
