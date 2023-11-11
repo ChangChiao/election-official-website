@@ -30,7 +30,7 @@
 </script>
 <div class="bg-no-repeat bg-cover wrapper bg-catHand">
     <div class="container flex items-center h-full">
-        <div class="flex flex-col items-center w-1/2 min-w-[660px] h-[406px] px-12 py-8 bg-white rounded-[80px]">
+        <div class="flex flex-col items-center w-1/2 min-w-[660px] h-[406px] px-12 py-6 bg-white rounded-[80px]">
             {#if isFront}
                 <img src="/svg/donate.svg" alt="title">
                 <p class="py-4 cus-text-h4">您的小筆捐款，是每隻毛孩未來的大大動力！</p>
@@ -42,7 +42,7 @@
                 </button>
                 {:else}
                 <h3 class="pb-2 cus-text-h4">選擇捐款方案</h3>
-                <ul class="flex items-center justify-between w-full">
+                <ul class="flex items-center justify-between w-full mb-4">
                     {#each cardList as item, i}
                         <!-- svelte-ignore a11y-click-events-have-key-events -->
                         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
@@ -54,13 +54,13 @@
                         </li>
                     {/each}
                 </ul>
-                <div class='flex items-center justify-center h-[90px] w-full my-4 border-2 rounded-lg border-secondary-darkGray'>
+                <div class='flex items-center justify-center h-[90px] w-full border-2 rounded-lg border-secondary-darkGray'>
                     <span class="w-1/3 pr-2 text-right cus-text-h5">自訂捐款金額</span>
                     <div class="flex items-center w-2/3 form-field">
                         <input class="w-full" placeholder="請輸入捐款金額" type="number">
                     </div>
                 </div>
-                <div class="flex items-center justify-center">
+                <div class="flex items-center justify-center mt-4">
                     <button class="mr-4 btn-outline w-[176px] h-[82px]" on:click={goBack}>返回</button>
                     <button class="w-[222px] h-[82px] btn" on:click={handleOpenDialog}>＄我要捐款</button>
                 </div>
