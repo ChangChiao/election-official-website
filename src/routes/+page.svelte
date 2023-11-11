@@ -5,6 +5,7 @@
 	import Activity from "../components/Activity.svelte";
 	import Issue from "../components/Issue.svelte";
 	import Donate from "../components/Donate.svelte";
+	import MailBox from "../components/MailBox.svelte";
 
     let pageTitle = '喵立翰 競選官網';
 
@@ -17,4 +18,5 @@
 <Activity />
 <Issue />
 <Donate/>
+<MailBox />
 <!-- <Amount/> -->

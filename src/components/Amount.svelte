@@ -27,9 +27,9 @@ onMount(() => {
 </script>
 
 
-<div bind:this={amountElemet} class="flex items-center font-oswald cus-text-h1 text-primary">
+<div bind:this={amountElemet} class="flex h-[100px] items-center font-oswald cus-text-h1 text-primary">
   {#if flag}  
-  <span>NT$</span> <div class="amount"></div>
+    <span>NT$</span> <div class="amount"></div>
   {/if}
 </div>
 

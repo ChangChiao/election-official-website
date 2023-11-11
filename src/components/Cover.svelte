@@ -1,4 +1,4 @@
-<div class="relative z-20 wrapper h-[1200px] bg-secondary-gray">
+<div class="relative z-20 wrapper pt-8 h-[1150px] bg-secondary-gray">
     <div class="container">
         <div class="flex items-end justify-between">
             <div class="slogan">
@@ -9,10 +9,10 @@
         </div>
         <div class="flex justify-between w-full pt-6">
             <img src="/svg/KEEP IT POSSIBLE.svg" alt="keep">
-            <div class="pl-4 w-[85%]">
+            <div class="pl-4 w-[90%]">
                 <img class="mb-6" src="/svg/Miao Li-Han.svg" alt="name">
-                <div class="w-full ml-10 p-8 rounded-tl-[50px]  rounded-br-[50px] border-4 border-primary bg-white h-[300px] relative boundary person ">
-                    <h3 class="cus-text-h1">護航台灣幸福經濟  從照顧每一隻貓咪開始</h3>
+                <div class="w-full ml-10 p-8 rounded-tl-[50px]  rounded-br-[50px] border-4 border-primary bg-white h-[400px] relative boundary person ">
+                    <h3 class="pb-6 text-center cus-text-h1">護航台灣幸福經濟  從照顧每一隻貓咪開始</h3>
                     <p class="cus-text-h4">我堅信，藉由推動更完善的貓咪福利和相關政策，更是間接地投資於台灣的未來。畢竟，民眾的身心健康與工作熱情是推動經濟的核心動力。透過完善的貓咪福利政策，為台灣的 GDP 經濟帶來巨大效益。
                     </p>
                     <p class="pt-4 cus-text-h4">
@@ -32,14 +32,14 @@
         before:bg-primary
         before:-left-4
         before:-z-10
-        before:top-1
-        before:h-[320px]
+        before:top-2
+        before:h-[400px]
         before:w-full
         before:content-['']
     }    
     .person {
         @apply after:absolute 
-        after:bottom-[294px]
+        after:bottom-[394px]
         after:right-0
         after:bg-contain
         after:bg-no-repeat
