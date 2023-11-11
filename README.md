@@ -28,3 +28,6 @@
 - vite
 - tailwindcss
 - AOS
+- GSAP
+- felte
+- zod
