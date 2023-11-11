@@ -42,12 +42,12 @@
 </script>
 
 <div id="mailBox" data-aos="fade-up" class="wrapper bg-secondary-gray">
-    <div class="container-box flex justify-between p-10">
-        <div class="flex flex-col items-center w-1/2">
-            <img src="/svg/mail.svg" alt="title">
-            <div class="w-2/3 text-center cus-text-h4">
-                <p class="py-4">您的聲音，我們的行動！</p>
-                <p>親愛的鄉親，每一位市民的意見都是我們社區前進的原動力。無論大小事，我都誠摯希望聽到您的建議。分享您的想法，一同為我們的未來打造更美好！</p>
+    <div class="flex flex-col justify-between p-10 pb-44 lg:pb-10 lg:flex-row container-box">
+        <div class="flex flex-col items-center lg:w-1/2">
+            <img class="title" src="/svg/mail.svg" alt="title">
+            <div class="lg:w-2/3 lg:cus-text-h4 body-md">
+                <p class="py-4 text-center cus-text-h5">您的聲音，我們的行動！</p>
+                <p class="text-center lg:text-left">親愛的鄉親，每一位市民的意見都是我們社區前進的原動力。無論大小事，我都誠摯希望聽到您的建議。分享您的想法，一同為我們的未來打造更美好！</p>
             </div>
         </div>
         <div>
@@ -94,7 +94,8 @@
 
 <style lang="postcss"> 
     .form-field {
-       @apply w-[360px]
+       @apply lg:w-[360px]
+       w-full
        h-[50px]
        rounded-md
        mb-6

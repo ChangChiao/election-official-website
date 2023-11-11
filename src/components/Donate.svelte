@@ -29,11 +29,11 @@
     }
 </script>
 <div data-aos="fade-up" class="bg-no-repeat bg-cover wrapper bg-catHand">
-    <div class="container-box flex items-center h-full">
-        <div class="flex flex-col items-center w-1/2 min-w-[660px] h-[406px] px-12 py-6 bg-white rounded-[80px]">
+    <div class="flex items-center h-full py-10 lg:py-0 container-box">
+        <div class="flex flex-col items-center mx-auto lg:w-1/2 lg:min-w-[660px] lg:h-[406px] px-12 py-6 bg-white rounded-[80px]">
             {#if isFront}
-                <img src="/svg/donate.svg" alt="title">
-                <p class="py-4 cus-text-h4">您的小筆捐款，是每隻毛孩未來的大大動力！</p>
+                <img class="title" src="/svg/donate.svg" alt="title">
+                <p class="py-4 lg:cus-text-h4 cus-text-h6">您的小筆捐款，是每隻毛孩未來的大大動力！</p>
                 <img src="/svg/total.svg" alt="total">
                 <Amount/>
                 <button class="btn w-[222px] h-[82px]" on:click={goBack}>

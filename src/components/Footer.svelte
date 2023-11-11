@@ -1,8 +1,8 @@
-<footer class="h-[176px] bg-primary py-10 relative cat">
+<footer class="lg:h-[176px] bg-primary lg:py-10 py-8 relative cat">
     <div class="container-box">
-        <div class="flex items-center justify-between">
-            <img src="/svg/logo-white.svg" alt="">
-            <ul class="text-white">
+        <div class="flex items-center justify-between w-full pt-10 lg:pt-0">
+            <img class="hidden lg:block" src="/svg/logo-white.svg" alt="">
+            <ul class="mx-auto text-white">
                 <li>地址：台北市喵星區毛茸茸大道88號喵喵大樓3樓</li>
                 <li>電話：(02) 888-5678 </li>
                 <li>郵件：meowoffice@linmeow.tw</li>
@@ -16,7 +16,10 @@
     .cat {
         @apply after:absolute 
         after:-top-[170px]
-        after:left-60
+        lg:after:left-60
+        lg:after:translate-x-0
+        after:left-1/2
+        after:-translate-x-1/2
         after:bg-contain
         after:bg-no-repeat
         after:w-[500px]

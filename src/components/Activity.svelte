@@ -18,8 +18,8 @@
 </script>
 
 <div data-aos="fade-up" id="activity" class="wrapper bg-secondary-gray h-[650px]">
-    <div class="container-box flex flex-col items-center">
-        <img class="my-8" src="/svg/latest.svg" alt="">
+    <div class="flex flex-col items-center container-box">
+        <img class="my-8 title" src="/svg/latest.svg" alt="">
         <div class="flex items-center justify-between">
             <div class="overflow-hidden rounded-lg relative w-[500px] h-[500px]">
                 <div class="absolute top-0 right-0 w-[74px] h-[74px] flex flex-col items-center justify-center text-white bg-secondary-green">
