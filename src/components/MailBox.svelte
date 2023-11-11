@@ -6,6 +6,7 @@
     import Dialog from './Dialog.svelte'
 	
     let dialog: HTMLDialogElement
+
     const defaultData = {
         name: undefined,
         email: undefined,
@@ -40,7 +41,7 @@
   }
 </script>
 
-<div id="mailBox" class="wrapper bg-secondary-gray">
+<div id="mailBox" data-aos="fade-up" class="wrapper bg-secondary-gray">
     <div class="container flex justify-between p-10">
         <div class="flex flex-col items-center w-1/2">
             <img src="/svg/mail.svg" alt="title">

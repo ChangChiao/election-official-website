@@ -17,7 +17,7 @@
     ]
 </script>
 
-<div id="activity" class="wrapper bg-secondary-gray h-[650px]">
+<div data-aos="fade-up" id="activity" class="wrapper bg-secondary-gray h-[650px]">
     <div class="container flex flex-col items-center">
         <img class="my-8" src="/svg/latest.svg" alt="">
         <div class="flex items-center justify-between">
