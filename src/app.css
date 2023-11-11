@@ -81,4 +81,8 @@
 	.wrapper {
 		@apply lg:h-[600px];
 	}
+
+	.title {
+		@apply w-[200px] lg:w-auto;
+	}
 }

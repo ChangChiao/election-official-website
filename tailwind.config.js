@@ -31,6 +31,20 @@ export default {
 				md: '16px',
 				sm: '14px'
 			},
+			keyframes: {
+				move: {
+					'0%': { transform: 'translateX(100%)' },
+					'100%': { transform: 'translateX(0)' }
+				},
+				back: {
+					'0%': { transform: 'translateX(0)' },
+					'100%': { transform: 'translateX(100%)' }
+				}
+			},
+			animation: {
+				swiper: 'move 0.3s ease-out forwards',
+				swiperBack: 'back 0.3s ease-out forwards'
+			},
 			backgroundImage: {
 				person: "url('/Main Img-people.png')",
 				catHand: "url('/bg-pay.png')",
