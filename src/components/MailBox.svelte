@@ -15,13 +15,15 @@
     }
 
     const phoneRegex = new RegExp(
-        /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/
+        /^[0-9]{10,12}$/
     );
 
     const schema = z.object({
         name: z.string().min(1, { message: "此欄位必填" }),         
         email: z.string().min(1, { message: "此欄位必填" }).email({message: "無效的Email"}),         
-        phone: z.string().min(1, { message: "此欄位必填" }).regex(phoneRegex, '無效的手機號碼'),         
+        phone: z.string().min(1, { message: "此欄位必填" }).refine((value) => {
+            return phoneRegex.test(value);
+        }, { message:'無效的手機號碼' }),    
         advise: z.string().min(1, { message: "此欄位必填" }),
     })
 
@@ -52,32 +54,37 @@
         </div>
         <div>
            <form use:form class="flex flex-col items-center pt-6">
-                <div class="form-field">
-                    <input name="name" placeholder="您的姓名" type="text" />
+                <div class="form-field" class:on-error={!!$errors.phone}>
+                    <input class="w-full" name="name" placeholder="您的姓名" type="text" />
                     <span class="field-eror">
                         {#if !!$errors.name}
                             {$errors.name[0]}
                         {/if}
                     </span>
                 </div>
-                <div class="form-field">
-                    <input name="email" placeholder="您的Email" type="text" />
+                <div class="form-field" class:on-error={!!$errors.phone}>
+                    <input class="w-full"  name="email" placeholder="您的Email" type="text" />
                     <span class="field-eror">
                         {#if !!$errors.email}
                             {$errors.email[0]}
                         {/if}
                     </span>
                 </div>
-                <div class="form-field">
-                    <input name="phone" placeholder="您的手機" type="text" />
+                <div class="form-field" class:on-error={!!$errors.phone} >
+                    <input class="w-full" name="phone" placeholder="您的手機" type="text" />
                     <span class="field-eror">
                         {#if !!$errors.phone}
                             {$errors.phone[0]}
                         {/if}
                     </span>
                 </div>
-                <div class="form-field text-area">
+                <div class="form-field text-area" class:on-error={!!$errors.advise}>
                     <textarea class="w-full h-full" placeholder="您的建言" maxlength="100" name="advise" />
+                    <span class="field-eror">
+                        {#if !!$errors.advise}
+                            {$errors.advise[0]}
+                        {/if}
+                    </span>
                 </div>
                 <button class="btn w-[176px] h-[82px]">送出意見</button>
            </form> 
@@ -105,6 +112,10 @@
        text-secondary-darkGray
        relative
        p-3;     
+    }
+    
+    .on-error {
+        @apply border-secondary-red;
     }
     .field-eror {
         @apply absolute

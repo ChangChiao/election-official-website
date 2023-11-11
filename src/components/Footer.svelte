@@ -4,8 +4,8 @@
             <img class="hidden lg:block" src="/svg/logo-white.svg" alt="">
             <ul class="mx-auto text-white">
                 <li>地址：台北市喵星區毛茸茸大道88號喵喵大樓3樓</li>
-                <li>電話：(02) 888-5678 </li>
-                <li>郵件：meowoffice@linmeow.tw</li>
+                <li>電話：<a href="tel:028885678">(02) 888-5678</a> </li>
+                <li>郵件：<a href="mailto:meowoffice@linmeow.tw">meowoffice@linmeow.tw</a></li>
             </ul>
         </div>
         <div class="pt-4 text-sm text-center text-gray-400">版權聲明：© 2023 喵立翰（Miao Li-Han） 版權所有。</div>
