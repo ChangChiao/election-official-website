@@ -9,7 +9,7 @@
 </script>
 
 <header class="bg-white h-[100px] fixed w-full top-0 left-0 z-50 border-[5px] border-primary border-b-0">
-    <div class="container flex items-center justify-between h-full">
+    <div class="container-box flex items-center justify-between h-full">
         <img class="flex logo" src="/svg/Logo.svg" alt="logo">
         <div class="flex items-center justify-end w-2/3">
             <ul class="flex">

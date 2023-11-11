@@ -49,13 +49,14 @@
 </script>
 
 <div data-aos="fade-up" id="cover" class="relative z-20 wrapper pt-36 h-[1150px] bg-secondary-gray">
-    <div class="container">
-        <div class="flex items-end justify-between">
+    <div class="container-box">
+        <div class="flex items-end justify-center lg:justify-between">
             <div class="slogan">
                 <img class="pb-4" src="/svg/subtitle.svg" alt="subtitle">
-                <img class="" src="/svg/slogan.svg" alt="slogan">
+                <img class="hidden lg:block" src="/svg/slogan.svg" alt="slogan">
+                <img class="lg:hidden w-[90%]" src="/svg/slogan-m.svg" alt="slogan">
             </div>
-            <img class="name" src="/svg/name.svg" alt="">
+            <img class="hidden name lg:block" src="/svg/name.svg" alt="">
         </div>
         <div class="flex justify-between w-full pt-6" id="advocate">
             <img class="keep" src="/svg/KEEP IT POSSIBLE.svg" alt="keep">
@@ -88,7 +89,7 @@
         before:content-['']
     }    
     .person {
-        @apply after:absolute 
+        @apply after:absolute
         after:bottom-[394px]
         after:right-0
         after:bg-contain

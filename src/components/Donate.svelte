@@ -29,7 +29,7 @@
     }
 </script>
 <div data-aos="fade-up" class="bg-no-repeat bg-cover wrapper bg-catHand">
-    <div class="container flex items-center h-full">
+    <div class="container-box flex items-center h-full">
         <div class="flex flex-col items-center w-1/2 min-w-[660px] h-[406px] px-12 py-6 bg-white rounded-[80px]">
             {#if isFront}
                 <img src="/svg/donate.svg" alt="title">

@@ -74,11 +74,11 @@
 		@apply bg-white rounded-[100px] p-10 w-[600px] h-[400px] flex flex-col items-center;
 	}
 
-	.container {
-		@apply w-4/5 max-w-[1512px] min-w-[1024px] mx-auto;
+	.container-box {
+		@apply lg:w-4/5 lg:max-w-[1512px] lg:min-w-[1024px] w-full px-4 mx-auto;
 	}
 
 	.wrapper {
-		@apply h-[600px];
+		@apply lg:h-[600px];
 	}
 }

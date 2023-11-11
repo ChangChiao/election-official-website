@@ -1,5 +1,5 @@
 <footer class="h-[176px] bg-primary py-10 relative cat">
-    <div class="container">
+    <div class="container-box">
         <div class="flex items-center justify-between">
             <img src="/svg/logo-white.svg" alt="">
             <ul class="text-white">

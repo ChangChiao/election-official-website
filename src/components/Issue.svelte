@@ -34,7 +34,7 @@
 </script>
 
 <div data-aos="fade-up" class="bg-primary wrapper" id="issue">
-    <div class="container flex flex-col items-center">
+    <div class="container-box flex flex-col items-center">
         <img class="my-8" src="/svg/issue.svg" alt="title">
         <div class="flex justify-between w-full">
             {#each issueList as item, i}
