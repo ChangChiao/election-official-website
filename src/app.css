@@ -58,6 +58,6 @@
 	}
 
 	.wrapper {
-		@apply h-[522px];
+		@apply h-[600px];
 	}
 }

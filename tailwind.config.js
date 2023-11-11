@@ -33,7 +33,8 @@ export default {
 			},
 			backgroundImage: {
 				person: "url('/Main Img-people.png')",
-				catHand: "url('/bg-pay.png')"
+				catHand: "url('/bg-pay.png')",
+				cat: "url('/footer-cat.png')"
 			}
 		}
 	},
