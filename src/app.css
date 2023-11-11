@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
 	body {
 		@apply font-NotoSansTC;
 	}
+
 	input:focus,
 	textarea:focus {
 		@apply outline-none;

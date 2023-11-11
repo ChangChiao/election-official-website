@@ -3,10 +3,26 @@
         <img class="logo w-[236px] h-[58px] flex-1" src="/svg/Logo.svg" alt="logo">
         <div class="flex items-center w-2/3">
             <ul class="flex">
-                <li class="menu-item active cus-text-h5">候選人主張</li>
-                <li class="menu-item cus-text-h5">最新活動</li>
-                <li class="menu-item cus-text-h5">政策議題</li>
-                <li class="menu-item cus-text-h5">民眾服務信箱</li>
+                <li class="menu-item active cus-text-h5">
+                   <a href="#advocate">
+                       候選人主張
+                   </a>                   
+                </li>
+                <li class="menu-item cus-text-h5">
+                    <a href="#activity">
+                      最新活動
+                    </a>
+                </li>
+                <li class="menu-item cus-text-h5">
+                    <a href="#issue">
+                      政策議題
+                    </a>
+                </li>
+                <li class="menu-item cus-text-h5">
+                    <a href="#mailBox">
+                      民眾服務信箱
+                    </a>
+                </li>
             </ul>
             <button class="flex items-center px-4 py-2 text-white cursor-pointer cus-text-h5 rounded-3xl bg-primary">
                 <iconify-icon icon="mdi:attach-money"></iconify-icon>

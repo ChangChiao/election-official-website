@@ -31,7 +31,7 @@
     ]
 </script>
 
-<div class="bg-primary wrapper">
+<div class="bg-primary wrapper" id="issue">
     <div class="container flex flex-col items-center">
         <img class="my-8" src="/svg/issue.svg" alt="title">
         <div class="flex justify-between w-full">

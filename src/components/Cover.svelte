@@ -7,7 +7,7 @@
             </div>
             <img src="/svg/name.svg" alt="">
         </div>
-        <div class="flex justify-between w-full pt-6">
+        <div class="flex justify-between w-full pt-6" id="advocate">
             <img src="/svg/KEEP IT POSSIBLE.svg" alt="keep">
             <div class="pl-4 w-[90%]">
                 <img class="mb-6" src="/svg/Miao Li-Han.svg" alt="name">
