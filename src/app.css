@@ -4,16 +4,24 @@
 
 @layer base {
 	html {
-		scroll-behavior: smooth;
+		@apply border-[5px] scroll-smooth border-primary;
 	}
 
 	body {
 		@apply font-NotoSansTC;
 	}
 
+	dialog {
+		@apply rounded-[100px];
+	}
+
 	input:focus,
 	textarea:focus {
 		@apply outline-none;
+	}
+
+	::backdrop {
+		@apply bg-black bg-opacity-50;
 	}
 }
 
@@ -55,7 +63,7 @@
 	}
 
 	.btn {
-		@apply flex text-white bg-primary rounded-[100px] items-center justify-center cus-text-h3 cursor-pointer;
+		@apply flex hover:opacity-80 text-white bg-primary rounded-[100px] items-center justify-center cus-text-h3 cursor-pointer;
 	}
 
 	.container {

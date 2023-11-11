@@ -19,7 +19,7 @@
         <div class="flex items-center w-2/3">
             <ul class="flex">
                 {#each menu as item, i}
-                    <li class="menu-item cus-text-h5" class:active={i === activeIndex} >
+                    <li class="menu-item cus-text-h5 hover:opacity-80" class:active={i === activeIndex} >
                         <a href={`#${item.id}`} on:click={() => handleClick(i)}>
                             {item.title}
                         </a>                   
