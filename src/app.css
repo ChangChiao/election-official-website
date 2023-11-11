@@ -66,6 +66,14 @@
 		@apply flex hover:opacity-80 text-white bg-primary rounded-[100px] items-center justify-center cus-text-h3 cursor-pointer;
 	}
 
+	.btn-outline {
+		@apply rounded-[100px] flex items-center justify-center border-2 hover:opacity-80 text-primary cus-text-h3 border-primary;
+	}
+
+	.dialog {
+		@apply bg-white rounded-[100px] p-10 w-[600px] h-[400px] flex flex-col items-center;
+	}
+
 	.container {
 		@apply w-4/5 max-w-[1512px] min-w-[1024px] mx-auto;
 	}

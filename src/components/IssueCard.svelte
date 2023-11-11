@@ -5,7 +5,7 @@
     export let content: string[] = []    
 </script>
 
-<div class:mt-10={index === 1} class="bg-white p-4 rounded-lg w-[30%] min-w-[374px] h-[366px]">
+<div class:mt-10={index === 1} class="bg-white p-4 rounded-lg w-[30%] max-w-[374px] h-[366px]">
     <div class="w-16 p-2 text-white rounded-tl-lg rounded-br-lg body-md bg-secondary-green">
         政策{order}
     </div>

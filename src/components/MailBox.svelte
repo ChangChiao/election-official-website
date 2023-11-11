@@ -84,10 +84,10 @@
     </div>
 </div>
 <Dialog bind:dialog>
-    <div class="bg-white rounded-[100px] p-10 w-[600px] h-[400px] flex flex-col items-center">
+    <div class="dialog">
         <h3 class="py-4 text-center cus-text-h4">感謝您抽出寶貴的時間給予我們寶貴的建議。</h3>
         <p class="cus-text-h6">我們非常重視您的意見，它是我們不斷改進和提升服務的動力。您提出的建議已經轉交給相關部門進行評估，我們將努力在未來的服務中加以考慮和實施。</p>
-        <button on:click={handleClose} class="border-2 hover:opacity-80 text-primary mt-8 cus-text-h3 flex items-center justify-center rounded-[100px] border-primary w-[176px] h-[82px]">返回</button>
+        <button on:click={handleClose} class="btn-outline mt-8 w-[176px] h-[82px]">返回</button>
     </div>
 </Dialog>
 
