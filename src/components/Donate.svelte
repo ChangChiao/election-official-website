@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Amount from "./Amount.svelte";
     import Dialog from './Dialog.svelte'
-    let isFront = false;
+    let isFront = true;
     let activeIndex = 0;
 
     let dialog: HTMLDialogElement
@@ -37,7 +37,7 @@
                 <img src="/svg/total.svg" alt="total">
                 <Amount/>
                 <button class="btn w-[222px] h-[82px]" on:click={goBack}>
-                    <iconify-icon icon="mdi:attach-money"></iconify-icon>
+                    <img class="w-10 mr-4" src="/svg/coin.svg" alt="coin">
                     前往捐款
                 </button>
                 {:else}
@@ -62,7 +62,10 @@
                 </div>
                 <div class="flex items-center justify-center mt-4">
                     <button class="mr-4 btn-outline w-[176px] h-[82px]" on:click={goBack}>返回</button>
-                    <button class="w-[222px] h-[82px] btn" on:click={handleOpenDialog}>＄我要捐款</button>
+                    <button class="w-[222px] h-[82px] btn" on:click={handleOpenDialog}>
+                        <img class="w-10 mr-4" src="/svg/coin.svg" alt="coin">
+                        我要捐款
+                    </button>
                 </div>
             {/if}
         </div>

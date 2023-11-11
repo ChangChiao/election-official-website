@@ -15,8 +15,8 @@
 
 <header class="bg-white h-[100px] fixed w-full top-0 left-0 z-50 border-[5px] border-primary border-b-0">
     <div class="container flex items-center justify-between h-full">
-        <img class="logo w-[236px] h-[58px] flex-1" src="/svg/Logo.svg" alt="logo">
-        <div class="flex items-center w-2/3">
+        <img class="flex logo" src="/svg/Logo.svg" alt="logo">
+        <div class="flex items-center justify-end w-2/3">
             <ul class="flex">
                 {#each menu as item, i}
                     <li class="menu-item cus-text-h5 hover:opacity-80" class:active={i === activeIndex} >
@@ -27,7 +27,7 @@
                 {/each}
             </ul>
             <button class="flex items-center px-4 py-2 text-white cursor-pointer cus-text-h5 rounded-3xl bg-primary">
-                <iconify-icon icon="mdi:attach-money"></iconify-icon>
+                <img class="mr-2" src="/svg/coin.svg" alt="coin">
                 小額捐款
             </button>
         </div>
