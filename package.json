@@ -46,6 +46,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"iconify-icon": "^1.0.8"
+		"@felte/validator-zod": "^1.0.17",
+		"felte": "^1.2.12",
+		"iconify-icon": "^1.0.8",
+		"zod": "^3.22.4"
 	}
 }
