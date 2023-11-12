@@ -5,7 +5,7 @@
     export let content:string = ''
 </script>
 
-<div class="overflow-hidden rounded-lg flex items-center relative w-full h-[232px] bg-white">
+<div class="overflow-hidden rounded-lg hover:translate-x-1 hover:translate-y-1 duration-300 flex items-center relative w-full h-[232px] bg-white">
     <div class="w-[276px] h-full overflow-hidden">
         <img src={imgSrc} alt="activity">
     </div>
@@ -14,7 +14,7 @@
             {date}
         </div>
         <h3 class="my-2 cus-text-h4">{title}</h3>
-        <p class="body-md line-clamp-4">
+        <p class="body-md line-clamp-3">
             {content}
         </p>
     </div>

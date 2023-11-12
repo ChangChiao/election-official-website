@@ -75,7 +75,7 @@
 	}
 
 	.container-box {
-		@apply lg:w-4/5 lg:max-w-[1512px] lg:min-w-[1024px] w-full px-4 mx-auto;
+		@apply lg:max-w-[1400px] w-full px-4 mx-auto;
 	}
 
 	.wrapper {
@@ -83,6 +83,6 @@
 	}
 
 	.title {
-		@apply w-[200px] lg:w-auto;
+		@apply h-[46px] lg:h-[56px];
 	}
 }

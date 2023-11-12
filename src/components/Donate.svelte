@@ -30,7 +30,7 @@
 </script>
 <section data-aos="fade-up" class="bg-no-repeat bg-cover wrapper bg-catHand">
     <div class="flex items-center h-full py-10 lg:py-0 container-box">
-        <div class="flex flex-col items-center mx-auto lg:w-1/2 lg:min-w-[660px] lg:h-[406px] px-12 py-6 bg-white rounded-[80px]">
+        <div class="flex flex-col items-center mx-auto lg:mx-0 lg:w-1/2 lg:min-w-[660px] lg:h-[406px] px-12 py-6 bg-white rounded-[80px]">
             {#if isFront}
                 <img class="title" src="/svg/donate.svg" alt="title">
                 <p class="py-4 lg:cus-text-h4 cus-text-h6">您的小筆捐款，是每隻毛孩未來的大大動力！</p>

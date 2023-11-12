@@ -32,7 +32,7 @@
 </script>
 
 
-<div bind:this={amountElemet} class="flex h-[100px] items-center font-oswald cus-text-h1 text-primary">
+<div bind:this={amountElemet} class="flex h-[100px] items-center font-oswald text-6xl text-primary">
     <span>NT$</span> <div bind:this={amountElemet} class="amount">987,655,873</div>
 </div>
 
