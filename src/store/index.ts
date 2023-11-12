@@ -1,7 +1,7 @@
 import { derived, writable } from 'svelte/store';
 
 export const globalStore = writable({
-	activeArea: ''
+	activeArea: 'cover'
 });
 
 export const activeArea = derived(globalStore, (state) => {

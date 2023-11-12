@@ -1,6 +1,9 @@
 <script lang="ts">
     import { menu } from '../configs/menu';
 	import MobileMenu from './MobileMenu.svelte';
+    import { activeArea } from '../store'; 
+	import type { Readable } from 'svelte/store';
+
     let activeIndex = 0
     let isOpenMenu: boolean | null = null;
     const handleClick = (index: number) => {
@@ -10,6 +13,8 @@
     const handleOpenMenu = () => {
         isOpenMenu = !isOpenMenu;
     }
+
+    let activeData: Readable<string> = activeArea;
 
 </script>
 
@@ -21,7 +26,7 @@
         <div class="flex items-center justify-end w-2/3">
             <ul class="hidden lg:flex">
                 {#each menu as item, i}
-                    <li class="menu-item cus-text-h5 hover:opacity-80" class:active={i === activeIndex} >
+                    <li class="menu-item cus-text-h5 hover:opacity-80" class:active={ item.id === $activeData } >
                         <a href={`#${item.id}`} on:click={() => handleClick(i)}>
                             {item.title}
                         </a>                   
