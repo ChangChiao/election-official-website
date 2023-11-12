@@ -79,10 +79,22 @@
 	}
 
 	.wrapper {
-		@apply lg:h-[600px];
+		@apply lg:h-[600px] h-auto;
 	}
 
 	.title {
 		@apply h-[46px] lg:h-[56px];
 	}
+}
+
+.splide__pagination {
+	@apply -bottom-12;
+}
+
+.splide__pagination__page {
+	@apply w-3 h-3 bg-white;
+}
+
+.splide__pagination__page.is-active {
+	@apply bg-primary;
 }

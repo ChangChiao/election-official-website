@@ -8,12 +8,12 @@
     $: day = date.split('/')[2];
 </script>
 
-<div class="overflow-hidden hover:translate-x-1 hover:translate-y-1 duration-300 rounded-lg relative w-[500px] h-[500px]">
+<div class="overflow-hidden hover:translate-x-1 hover:translate-y-1 duration-300 rounded-lg relative w-[300px] h-[368px] lg:w-[500px] lg:h-[500px]">
     <div class="absolute top-0 right-0 w-[74px] h-[74px] flex flex-col items-center justify-center text-white bg-secondary-green">
         <div class="leading-none cus-text-h2">{day}</div>
         <div class="cus-text-h6">DEC.</div>
     </div>
-    <div class="h-[332px] overflow-hidden">
+    <div class="h-[200px] lg:h-[332px] overflow-hidden">
         <img src={imgSrc} alt="activity">
     </div>
     <div class="h-[168px] bg-white p-3">
