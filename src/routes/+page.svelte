@@ -1,5 +1,4 @@
 <script>
-	import Amount from "../components/Amount.svelte";
     import { onMount } from 'svelte';
 	import Cover from "../components/Cover.svelte";
 	import Activity from "../components/Activity.svelte";
@@ -14,9 +13,10 @@
     });
 </script>
 
-<Cover />
-<Activity />
-<Issue />
-<Donate/>
-<MailBox />
-<!-- <Amount/> -->
+<div class="border-[5px] border-primary overflow-hidden">
+    <Cover />
+    <Activity />
+    <Issue />
+    <Donate/>
+    <MailBox />
+</div>

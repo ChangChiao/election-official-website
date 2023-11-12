@@ -3,12 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-	html {
-		@apply border-[5px] scroll-smooth bg-primary border-primary;
-	}
-
 	body {
-		@apply font-NotoSansTC;
+		@apply font-NotoSansTC scroll-smooth;
 	}
 
 	dialog {

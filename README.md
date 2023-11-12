@@ -24,10 +24,12 @@
 
 ## 使用技術
 
-- svelte
+- svelte/kit
 - vite
 - tailwindcss
+- typeScript
 - AOS
 - GSAP
 - felte
 - zod
+- splide

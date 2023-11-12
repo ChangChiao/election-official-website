@@ -30,6 +30,8 @@
                 <img class="mr-2" src="/svg/coin.svg" alt="coin">
                 小額捐款
             </button>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <!-- svelte-ignore a11y-no-static-element-interactions -->
             <div on:click={handleOpenMenu} class="hamburger lg:hidden cursor-pointer flex flex-col items-end w-[50px] h-[50px]">
                 <div class="w-1/2 line"></div>
                 <div class="w-3/4 line"></div>
