@@ -43,7 +43,7 @@
   }
 </script>
 
-<div id="mailBox" data-aos="fade-up" class="wrapper bg-secondary-gray">
+<section id="mailBox" data-aos="fade-up" class="wrapper bg-secondary-gray">
     <div class="flex flex-col justify-between p-10 pb-44 lg:pb-10 lg:flex-row container-box">
         <div class="flex flex-col items-center lg:w-1/2">
             <img class="title" src="/svg/mail.svg" alt="title">
@@ -90,7 +90,7 @@
            </form> 
         </div>
     </div>
-</div>
+</section>
 <Dialog bind:dialog>
     <div class="dialog">
         <h3 class="py-4 text-center cus-text-h4">感謝您抽出寶貴的時間給予我們寶貴的建議。</h3>

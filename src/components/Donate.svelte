@@ -28,7 +28,7 @@
         dialog.close()
     }
 </script>
-<div data-aos="fade-up" class="bg-no-repeat bg-cover wrapper bg-catHand">
+<section data-aos="fade-up" class="bg-no-repeat bg-cover wrapper bg-catHand">
     <div class="flex items-center h-full py-10 lg:py-0 container-box">
         <div class="flex flex-col items-center mx-auto lg:w-1/2 lg:min-w-[660px] lg:h-[406px] px-12 py-6 bg-white rounded-[80px]">
             {#if isFront}
@@ -70,7 +70,7 @@
             {/if}
         </div>
     </div>
-</div>
+</section>
 
 <Dialog bind:dialog>
     <div class="dialog">

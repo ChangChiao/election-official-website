@@ -14,7 +14,7 @@
             {date}
         </div>
         <h3 class="my-2 cus-text-h4">{title}</h3>
-        <p class="body-md">
+        <p class="body-md line-clamp-4">
             {content}
         </p>
     </div>
