@@ -8,7 +8,7 @@
 
 使用視差滾動製作立法委員候選人官網
 
-<!-- ![image](./readme/cover.png) -->
+![image](./static/cover.png)
 
 ## Designer
 
@@ -16,8 +16,8 @@
 
 ## 系統說明
 
-`Node版本: v18.14.1`
-`pnpm版本: v8.2.0`
+- Node 版本: `v18.14.1`
+- pnpm 版本: `v8.2.0`
 
 - 安裝： `pnpm install`
 - 執行： `pnpm dev`
