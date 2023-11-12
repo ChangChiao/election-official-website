@@ -38,7 +38,7 @@
         <img class="my-8 title" src="/svg/issue.svg" alt="title">
         <div class="flex flex-col justify-between w-full lg:flex-row">
             {#each issueList as item, i}
-            <IssueCard {...item} index={i} />
+                <IssueCard {...item} index={i} />
             {/each}
         </div>
     </div>

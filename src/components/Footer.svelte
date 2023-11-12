@@ -15,14 +15,17 @@
 <style lang="postcss">
     .cat {
         @apply after:absolute 
-        after:-top-[170px]
+        lg:after:-top-[170px]
+        after:-top-[136px]
         lg:after:left-60
         lg:after:translate-x-0
         after:left-1/2
         after:-translate-x-1/2
         after:bg-contain
         after:bg-no-repeat
-        after:w-[500px]
+        lg:after:w-[500px]
+        lg:after:h-[300px]
+        after:w-[400px]
         after:h-[300px]
         after:z-10
         after:bg-cat

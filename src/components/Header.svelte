@@ -13,7 +13,7 @@
 
 </script>
 
-<header class="bg-white h-[66px] lg:h-[100px] fixed w-full top-0 left-0 z-50 border-[5px] border-primary border-b-0">
+<header class="bg-white h-[66px] lg:h-[100px] fixed w-screen top-0 left-0 z-50 border-[5px] border-primary border-b-0">
     <div class="flex items-center justify-between h-full container-box">
         <img class="logo w-[160px] lg:w-auto" src="/svg/Logo.svg" alt="logo">
         <div class="flex items-center justify-end w-2/3">
@@ -30,8 +30,6 @@
                 <img class="mr-2" src="/svg/coin.svg" alt="coin">
                 小額捐款
             </button>
-            <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <!-- svelte-ignore a11y-no-static-element-interactions -->
             <div on:click={handleOpenMenu} class="hamburger lg:hidden cursor-pointer flex flex-col items-end w-[50px] h-[50px]">
                 <div class="w-1/2 line"></div>
                 <div class="w-3/4 line"></div>
