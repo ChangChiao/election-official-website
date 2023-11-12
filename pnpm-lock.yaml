@@ -22,6 +22,9 @@ dependencies:
   iconify-icon:
     specifier: ^1.0.8
     version: 1.0.8
+  svelte-match-media:
+    specifier: ^1.2.1
+    version: 1.2.1
   swiper:
     specifier: ^11.0.4
     version: 11.0.4
@@ -3184,6 +3187,10 @@ packages:
     dependencies:
       svelte: 4.2.2
     dev: true
+
+  /svelte-match-media@1.2.1:
+    resolution: {integrity: sha512-+IR1e49LZgre4WDiKcnx+FsHU7zvd3/LWDNjSyt33EzvO0swsBHrSgy1sTDyx6ScdfFkvPkHakG0w57m96TcrA==}
+    dev: false
 
   /svelte-preprocess@5.0.4(postcss@8.4.31)(svelte@4.2.2)(typescript@5.2.2):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}

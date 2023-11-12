@@ -87,6 +87,14 @@
 	}
 }
 
+.splide__slide {
+	@apply scale-95 opacity-60;
+}
+
+.splide__slide.is-active {
+	@apply scale-100 opacity-100;
+}
+
 .splide__pagination {
 	@apply -bottom-12;
 }

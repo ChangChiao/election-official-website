@@ -103,8 +103,8 @@
         after:-right-20
         after:w-[300px]
         after:h-[300px]
-        md:after:w-[600px]
-        md:after:h-[600px]
+        sm:after:w-[400px]
+        sm:after:h-[400px]
         lg:after:bottom-[394px]
         lg:after:right-0
         lg:after:w-[600px]
