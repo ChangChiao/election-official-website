@@ -13,7 +13,7 @@
     });
 </script>
 
-<div class="border-[5px] border-primary overflow-hidden">
+<div class="outter border-[5px] border-primary overflow-hidden">
     <Cover />
     <Activity />
     <Issue />
