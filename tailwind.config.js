@@ -33,12 +33,12 @@ export default {
 			},
 			keyframes: {
 				move: {
-					'0%': { transform: 'translateX(100%)' },
-					'100%': { transform: 'translateX(0)' }
+					'0%': { right: '-100%', opacity: 0 },
+					'100%': { right: '0', opacity: 1 }
 				},
 				back: {
-					'0%': { transform: 'translateX(0)' },
-					'100%': { transform: 'translateX(100%)' }
+					'0%': { right: '0', opacity: 1 },
+					'100%': { right: '100%', opacity: 0 }
 				}
 			},
 			animation: {

@@ -63,7 +63,7 @@
             <div class="w-full pl-4">
                 <img class="hidden mb-8 lg:block eng-name" src="/svg/Miao Li-Han.svg" alt="name">
                 <img class="w-full mb-64 lg:hidden eng-name" src="/svg/Miao Li-Han-m.svg" alt="name">
-                <div class="w-full lg:w-full ml-10 p-8 lg:rounded-tl-[50px]  lg:rounded-br-[50px] rounded-tl-[100px]  rounded-br-[100px] border-4 border-primary bg-white h-[400px] relative boundary person ">
+                <div class="w-[95%] lg:w-full ml-10 p-8 lg:rounded-tl-[50px]  lg:rounded-br-[50px] rounded-tl-[100px]  rounded-br-[100px] border-4 border-primary bg-white h-[400px] relative boundary person ">
                     <h3 class="pb-6 text-xl font-bold text-center lg:cus-text-h1">護航台灣幸福經濟  從照顧每一隻貓咪開始</h3>
                     <p class="body-md lg:cus-text-h4">我堅信，藉由推動更完善的貓咪福利和相關政策，更是間接地投資於台灣的未來。畢竟，民眾的身心健康與工作熱情是推動經濟的核心動力。透過完善的貓咪福利政策，為台灣的 GDP 經濟帶來巨大效益。
                     </p>

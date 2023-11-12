@@ -2,7 +2,7 @@
     import { menu } from '../configs/menu';
 	import MobileMenu from './MobileMenu.svelte';
     let activeIndex = 0
-    let isOpenMenu = false;
+    let isOpenMenu: boolean | null = null;
     const handleClick = (index: number) => {
         activeIndex = index
     }

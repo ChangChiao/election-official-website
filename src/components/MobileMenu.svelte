@@ -3,7 +3,7 @@
     import { menu } from '../configs/menu';
     import { createEventDispatcher } from 'svelte';
 
-    export let isOpenMenu:boolean;
+    export let isOpenMenu:boolean | null;
 
     const dispatch = createEventDispatcher();
 
@@ -12,7 +12,7 @@
     }
 </script>
 
-<div class:animate-swiper={isOpenMenu}  class:animate-swiperBack={!isOpenMenu} class="fixed px-8 w-screen h-screen text-white z-[999] translate-x-full bg-primary">
+<div class:animate-swiper={isOpenMenu}  class:animate-swiperBack={isOpenMenu === false} class="fixed -right-full px-8 w-screen h-screen text-white z-[999] bg-primary">
     <div class="h-[66px] flex items-center justify-between">
         <img class="w-[160px]" src="/svg/logo-white.svg" alt="logo">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
