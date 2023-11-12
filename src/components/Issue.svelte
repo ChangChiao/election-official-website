@@ -36,7 +36,7 @@
 <section data-aos="fade-up" class="bg-primary wrapper" id="issue">
     <div class="flex flex-col items-center container-box">
         <img class="my-8 title" src="/svg/issue.svg" alt="title">
-        <div class="flex flex-col justify-between w-full lg:flex-row">
+        <div class="flex flex-col justify-center w-full gap-10 lg:flex-row">
             {#each issueList as item, i}
                 <IssueCard {...item} index={i} />
             {/each}

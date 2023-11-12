@@ -15,7 +15,9 @@
 
 <header class="bg-white h-[66px] lg:h-[100px] fixed w-screen top-0 left-0 z-50 border-[5px] border-primary border-b-0">
     <div class="flex items-center justify-between h-full container-box">
-        <img class="logo w-[160px] lg:w-auto" src="/svg/Logo.svg" alt="logo">
+        <a href="#cover">
+            <img class="logo w-[160px] lg:w-auto" src="/svg/Logo.svg" alt="logo">
+        </a>
         <div class="flex items-center justify-end w-2/3">
             <ul class="hidden lg:flex">
                 {#each menu as item, i}
@@ -26,7 +28,7 @@
                     </li>
                 {/each}
             </ul>
-            <button class="items-center hidden px-4 py-2 text-white cursor-pointer lg:flex cus-text-h5 rounded-3xl bg-primary">
+            <button class="items-center hidden px-4 py-2 text-white cursor-pointer hover:opacity-80 lg:flex cus-text-h5 rounded-3xl bg-primary">
                 <img class="mr-2" src="/svg/coin.svg" alt="coin">
                 小額捐款
             </button>
