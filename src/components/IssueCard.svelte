@@ -9,7 +9,7 @@
     const getString = (str: string, count: number) => str.length >= count ? str.slice(0, count) + '...' : string;   
 </script>
 
-<div class:lg:mt-8={index === 1} class="bg-white p-4 rounded-lg w-full lg:w-[30%] mb-8 lg:max-w-[374px] lg:h-[374px] hover:translate-x-1 hover:translate-y-1 duration-300 ">
+<div class:lg:mt-8={index === 1} class="bg-white p-4 rounded-lg w-full lg:w-[30%] mb-8 lg:max-w-[374px] lg:h-[374px] h-[400px] hover:translate-x-1 hover:translate-y-1 duration-300 ">
     <div class="w-16 p-2 text-white rounded-tl-lg rounded-br-lg body-md bg-secondary-green">
         政策{order}
     </div>

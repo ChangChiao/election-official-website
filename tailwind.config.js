@@ -3,6 +3,10 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			screens: {
+				sm: '480px',
+				xx: '500px'
+			},
 			fontFamily: {
 				oswald: ['Oswald', 'sans-serif'],
 				NotoSansTC: ['Noto Sans TC', 'sans-serif']

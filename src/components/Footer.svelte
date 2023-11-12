@@ -16,7 +16,7 @@
     .cat {
         @apply after:absolute 
         lg:after:-top-[170px]
-        after:-top-[136px]
+        after:-top-[126px]
         lg:after:left-60
         lg:after:translate-x-0
         after:left-1/2
@@ -25,7 +25,7 @@
         after:bg-no-repeat
         lg:after:w-[500px]
         lg:after:h-[300px]
-        after:w-[400px]
+        after:w-[360px]
         after:h-[300px]
         after:z-10
         after:bg-cat

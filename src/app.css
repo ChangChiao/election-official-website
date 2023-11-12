@@ -63,11 +63,11 @@
 	}
 
 	.btn {
-		@apply flex hover:opacity-80 text-white bg-primary rounded-[100px] items-center justify-center cus-text-h3 cursor-pointer;
+		@apply flex hover:opacity-80 text-white bg-primary rounded-[100px] items-center justify-center cus-text-h5 lg:cus-text-h3 cursor-pointer;
 	}
 
 	.btn-outline {
-		@apply rounded-[100px] flex items-center justify-center border-2 hover:opacity-80 text-primary cus-text-h3 border-primary;
+		@apply rounded-[100px] flex items-center justify-center border-2 hover:opacity-80 text-primary cus-text-h5 lg:cus-text-h3 border-primary;
 	}
 
 	.dialog {
@@ -75,7 +75,7 @@
 	}
 
 	.container-box {
-		@apply lg:max-w-[1400px] w-full px-4 mx-auto;
+		@apply lg:max-w-[1400px] w-full px-2 md:px-4 mx-auto;
 	}
 
 	.wrapper {
