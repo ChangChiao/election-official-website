@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Amount from "./Amount.svelte";
     import Dialog from './Dialog.svelte'
-    let isFront = false;
+    let isFront = true;
     let activeIndex = 0;
 
     let dialog: HTMLDialogElement
