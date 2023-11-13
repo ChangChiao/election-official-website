@@ -93,9 +93,9 @@
 </section>
 <Dialog bind:dialog>
     <div class="dialog">
-        <h3 class="py-4 text-center cus-text-h4">感謝您抽出寶貴的時間給予我們寶貴的建議。</h3>
-        <p class="cus-text-h6">我們非常重視您的意見，它是我們不斷改進和提升服務的動力。您提出的建議已經轉交給相關部門進行評估，我們將努力在未來的服務中加以考慮和實施。</p>
-        <button on:click={handleClose} class="btn-outline mt-8 w-[176px] h-[82px]">返回</button>
+        <h3 class="py-4 text-center lg:cus-text-h4 cus-text-h5">感謝您抽出寶貴的時間給予我們寶貴的建議。</h3>
+        <p class="lg:cus-text-h6 body-md">我們非常重視您的意見，它是我們不斷改進和提升服務的動力。您提出的建議已經轉交給相關部門進行評估，我們將努力在未來的服務中加以考慮和實施。</p>
+        <button on:click={handleClose} class="btn-outline mt-8 py-4 px-8 lg:p-0 lg:w-[176px] lg:h-[82px]">返回</button>
     </div>
 </Dialog>
 

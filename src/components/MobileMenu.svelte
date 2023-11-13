@@ -20,7 +20,7 @@
         <div on:click={handleClick} class="cursor-pointer cross"></div>
     </div>
     <ul class="flex flex-col justify-end pt-4">
-        {#each menu as item, i}
+        {#each menu as item}
             <li class="mb-8 text-right cus-text-h5" >
                 <a href={`#${item.id}`}>
                     {item.title}
@@ -45,6 +45,7 @@
         after:w-full
         after:h-1
         after:z-10
+        after:rounded-sm
         after:bg-white
         after:origin-center
         after:content-[''] 
@@ -56,6 +57,7 @@
         before:h-1
         before:z-10
         before:bg-white
+        before:rounded-sm
         before:origin-center
         before:content-[''] 
         before:rotate-45;

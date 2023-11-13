@@ -19,7 +19,6 @@
 		const oldUrl = window.location.href
 		if(oldUrl.includes('#')){
 			const newUrl = oldUrl.split('#')[0]
-			console.log('newUrl', newUrl)
 			window.location.href = newUrl
 		}
 	}

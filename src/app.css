@@ -12,7 +12,7 @@
 	}
 
 	dialog {
-		@apply rounded-[100px];
+		@apply rounded-[60px] lg:rounded-[100px];
 	}
 
 	input:focus,
@@ -71,7 +71,7 @@
 	}
 
 	.dialog {
-		@apply bg-white rounded-[100px] p-10 w-[600px] h-[400px] flex flex-col items-center;
+		@apply bg-white rounded-md lg:rounded-[100px] p-10 w-full md:w-[600px] md:h-[400px] flex flex-col items-center;
 	}
 
 	.container-box {

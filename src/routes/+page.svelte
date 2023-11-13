@@ -22,7 +22,6 @@
         const handleIntersection = ((entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
             entries.forEach(ele => {
                 if(ele.isIntersecting){
-                    console.log('ele', ele.target.id)
                     setActiveArea(ele?.target?.id)
                 }
             })

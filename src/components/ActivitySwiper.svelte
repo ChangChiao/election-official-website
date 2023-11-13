@@ -16,7 +16,6 @@
     }
     
     const setOption = () => {
-        console.log('window.innerWidth', window.innerWidth)
         const window_width = window.innerWidth
         if(window_width > 768){
             option = {
@@ -37,7 +36,6 @@
                 padding: '6%'
             }
         }
-        console.log('mySlider.splide')
         mySlider.splide.refresh();
     }
     
@@ -53,7 +51,6 @@
 <div class="block w-full lg:hidden">
     <Splide 
         bind:this={ mySlider }
-        on:refresh={() => console.log('rrrrr')}
         options={option}>
         {#each actData as item}
             <SplideSlide>
