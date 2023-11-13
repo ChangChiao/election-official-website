@@ -1,4 +1,4 @@
-# 🏠 F2E 2023 Week1 - election official website
+# 🏠 F2E 2023 Week1 - 立法委員競選官網
 
 ## Demo
 
@@ -6,7 +6,7 @@
 
 ## 作品說明
 
-使用視差滾動製作立法委員候選人官網
+使用視差滾動製作立法委員競選官網
 
 ![image](./static/cover.png)
 
