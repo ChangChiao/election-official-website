@@ -4,7 +4,7 @@
 	import Activity from "../components/Activity.svelte";
 	import Issue from "../components/Issue.svelte";
 	import Donate from "../components/Donate.svelte";
-	import MailBox from "../components/MailBox.svelte";
+	import FeedBack from "../components/FeedBack.svelte";
     import { setActiveArea } from '../store'
 
     let pageTitle = '喵立翰 競選官網';
@@ -33,10 +33,10 @@
     });
 </script>
 
-<div  class="outter border-[5px] border-primary overflow-hidden">
+<main class="outter md:pt-32 pt-24  border-[5px] border-primary overflow-hidden">
     <Cover />
     <Activity />
     <Issue />
     <Donate/>
-    <MailBox />
-</div>
+    <FeedBack />
+</main>

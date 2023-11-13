@@ -1,7 +1,7 @@
 <script lang="ts">
-    import { menu } from '../configs/menu';
+    import { menu } from '../../configs/menu';
 	import MobileMenu from './MobileMenu.svelte';
-    import { activeArea } from '../store'; 
+    import { activeArea } from '../../store'; 
 	import type { Readable } from 'svelte/store';
 
     let activeIndex = 0

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { afterUpdate } from 'svelte';
-    import { menu } from '../configs/menu';
+    import { menu } from '../../configs/menu';
     import { createEventDispatcher } from 'svelte';
 
     export let isOpenMenu:boolean | null;
@@ -22,15 +22,17 @@
     <ul class="flex flex-col justify-end pt-4">
         {#each menu as item}
             <li class="mb-8 text-right cus-text-h5" >
-                <a href={`#${item.id}`}>
+                <a href={`#${item.id}`} on:click={handleClick}>
                     {item.title}
                 </a>                   
             </li>
         {/each}
     </ul>
     <button class="flex items-center float-right px-4 py-2 bg-white cursor-pointer text-primary cus-text-h5 rounded-3xl">
-        <img class="mr-2" src="/svg/coin-p.svg" alt="coin">
-        小額捐款
+        <a href="#donate" class="flex" on:click={handleClick}>
+            <img class="mr-2" src="/svg/coin-p.svg" alt="coin">
+            小額捐款
+        </a>
     </button>
 </div>
 

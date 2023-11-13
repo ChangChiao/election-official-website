@@ -1,7 +1,7 @@
 <script lang="ts">
 	import 'iconify-icon'
-	import Header from  '../components/Header.svelte'
-	import Footer from '../components/Footer.svelte';
+	import Header from  '../components/layout/Header.svelte'
+	import Footer from '../components/layout/Footer.svelte';
 	import AOS from 'aos';	
 	import { SvelteToast } from '@zerodevx/svelte-toast'
 	import { onDestroy, onMount } from 'svelte';
@@ -24,7 +24,10 @@
 	}
 
 	onMount(() => {
-		AOS.init();
+		AOS.init({
+			offset: 30,
+			once: true,
+		});
 		// window.addEventListener('beforeunload', removeUrlHash);
 	})
 

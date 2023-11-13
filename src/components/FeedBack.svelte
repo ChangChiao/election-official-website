@@ -43,7 +43,7 @@
   }
 </script>
 
-<section id="mailBox" data-aos="fade-up" class="wrapper lg:h-[540px] bg-secondary-gray">
+<section id="feedBack" data-aos="fade-up" class="wrapper lg:h-[540px] bg-secondary-gray">
     <div class="flex flex-col justify-between py-10 pb-44 lg:pb-10 lg:flex-row container-box">
         <div class="flex flex-col items-center lg:w-1/2">
             <img class="title" src="/svg/mail.svg" alt="title">

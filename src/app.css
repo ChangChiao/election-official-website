@@ -8,7 +8,7 @@
 	}
 
 	body {
-		@apply font-NotoSansTC;
+		@apply font-NotoSansTC bg-secondary-gray;
 	}
 
 	dialog {
@@ -18,6 +18,10 @@
 	input:focus,
 	textarea:focus {
 		@apply outline-none;
+	}
+
+	section {
+		@apply scroll-mt-[80px] lg:scroll-mt-[200px];
 	}
 
 	::backdrop {

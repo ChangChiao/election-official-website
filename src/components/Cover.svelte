@@ -48,7 +48,7 @@
     })  
 </script>
 
-<section data-aos="fade-up" id="cover" class="relative z-20 wrapper md:pt-32 pt-24 lg:h-[1200px] md:h-[1400px] sm:h-[1200px] h-[1000px] bg-secondary-gray">
+<section data-aos="fade-up" id="cover" class="section relative z-20 wrapper lg:h-[1200px] md:h-[1400px] sm:h-[1200px] h-[1000px] bg-secondary-gray">
     <div class="container-box">
         <div class="flex items-end justify-center lg:justify-between">
             <div class="flex flex-col items-center w-full lg:block">
