@@ -54,7 +54,7 @@
         </div>
         <div>
            <form use:form class="flex flex-col items-center pt-6">
-                <div class="form-field" class:on-error={!!$errors.phone}>
+                <div class="form-field" class:on-error={!!$errors.name}>
                     <input class="w-full" name="name" placeholder="您的姓名" type="text" />
                     <span class="field-eror">
                         {#if !!$errors.name}
@@ -62,7 +62,7 @@
                         {/if}
                     </span>
                 </div>
-                <div class="form-field" class:on-error={!!$errors.phone}>
+                <div class="form-field" class:on-error={!!$errors.email}>
                     <input class="w-full"  name="email" placeholder="您的Email" type="text" />
                     <span class="field-eror">
                         {#if !!$errors.email}

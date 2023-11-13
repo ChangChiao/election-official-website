@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
 
-  let flag = false;
   let amountElemet: HTMLDivElement;
   const option = {
     root: null,
@@ -20,7 +19,6 @@
             duration: 1000,
             delay: 16,
           })
-          // flag = true;
           observer.unobserve(ele.target)
         }
       })

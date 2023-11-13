@@ -34,8 +34,10 @@
                 {/each}
             </ul>
             <button class="items-center hidden px-4 py-2 text-white cursor-pointer hover:opacity-80 lg:flex cus-text-h5 rounded-3xl bg-primary">
-                <img class="mr-2" src="/svg/coin.svg" alt="coin">
-                小額捐款
+                <a href="#cover" class="flex items-center">
+                    <img class="mr-2" src="/svg/coin.svg" alt="coin">
+                    小額捐款
+                </a>
             </button>
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <!-- svelte-ignore a11y-no-static-element-interactions -->

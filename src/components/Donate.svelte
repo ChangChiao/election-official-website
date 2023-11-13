@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Amount from "./Amount.svelte";
     import Dialog from './Dialog.svelte'
-    let isFront = true;
+    let isFront = false;
     let activeIndex = 0;
 
     let dialog: HTMLDialogElement
@@ -47,16 +47,16 @@
                         <!-- svelte-ignore a11y-click-events-have-key-events -->
                         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
                         <li on:click={() => handleClick(i)} class:active={activeIndex === i} 
-                            class="w-[33%] p-2 lg:w-[178px] h-[120px] hover:translate-x-1 hover:translate-y-1 duration-300 flex flex-col items-center border-2 cursor-pointer justify-between py-3 border-secondary-darkGray rounded-lg">
+                            class="w-1/3 p-2 lg:w-[32%] h-[120px] hover:translate-x-1 hover:translate-y-1 duration-300 flex flex-col items-center border-2 cursor-pointer justify-between py-3 border-secondary-darkGray rounded-lg">
                             <span class="lg:cus-text-h5 cus-text-h6">{ item.title }</span>
                             <img src={`/svg/NT$${item.amount}.svg`} alt="amount">
                             <span class="text-gray-400 body-sm lg:body-md">已經有<span>{ item.count }</span>人贊助</span>
                         </li>
                     {/each}
                 </ul>
-                <div class='flex px-2 lg:px-0 items-center justify-center h-[90px] w-full border-2 rounded-lg border-secondary-darkGray'>
-                    <span class="w-1/3 pr-2 text-right cus-text-h6 lg:cus-text-h5">自訂捐款金額</span>
-                    <div class="flex items-center w-2/3 form-field">
+                <div class='flex px-2 lg:px-4 items-center justify-center h-[90px] w-full border-2 rounded-lg border-secondary-darkGray'>
+                    <span class="pr-2 cus-text-h6 lg:cus-text-h5">自訂捐款金額</span>
+                    <div class="flex items-center flex-1 w-2/3 form-field">
                         <input class="w-full" placeholder="請輸入捐款金額" type="number">
                     </div>
                 </div>

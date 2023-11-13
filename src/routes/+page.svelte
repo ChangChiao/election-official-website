@@ -12,7 +12,7 @@
     const option = {
         root: null,
         rootMargin: "0px",
-        threshold: 0
+        threshold: 0.7
     }
 
     onMount(() => {

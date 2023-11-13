@@ -15,7 +15,7 @@
         });
 
         const keepAnimation = gsap.from(".keep", {
-            y: 200, // 向上移動的距離
+            y: 200,
             opacity: 0,
             duration: 1,
             ease: "power2.inOut",
@@ -30,7 +30,7 @@
             paused: true
         });
 
-        // 監聽滾動事件
+        
         ScrollTrigger.create({
             trigger: "#cover",
             start: "top 90%",
@@ -52,7 +52,7 @@
     <div class="container-box">
         <div class="flex items-end justify-center lg:justify-between">
             <div class="flex flex-col items-center w-full lg:block">
-                <img class="w-2/3 pb-4 lg:w-full" src="/svg/subtitle.svg" alt="subtitle">
+                <img class="w-2/3 pb-4 lg:w-1/3" src="/svg/subtitle.svg" alt="subtitle">
                 <img class="hidden lg:block" src="/svg/slogan.svg" alt="slogan">
                 <img class="w-full lg:hidden" src="/svg/slogan-m.svg" alt="slogan">
             </div>
