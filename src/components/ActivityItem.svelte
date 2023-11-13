@@ -16,12 +16,26 @@
     <div class="h-[200px] lg:h-[332px] overflow-hidden">
         <img src={imgSrc} alt="activity">
     </div>
-    <div class="h-[168px] bg-white p-3">
+    <div class="h-[168px] bg-white p-3 relative triangle">
         <h3 class="pb-2 cus-text-h4">{ title }</h3>
         <p class="body-md line-clamp-3">{ content }</p>
     </div>
 </div>
 
 <style lang="postcss">
-
+.triangle {
+    @apply after:absolute
+    after:content-['']
+    after:left-1/2
+    after:-top-5
+    after:-translate-x-1/2
+    after:w-0
+    after:h-0
+    after:border-l-transparent
+    after:border-r-transparent
+    after:border-r-[22px]
+    after:border-b-[20px]
+    after:border-l-[22px]
+    after:border-b-white;
+}
 </style>
