@@ -32,4 +32,3 @@
 - GSAP
 - felte
 - zod
-- splide
